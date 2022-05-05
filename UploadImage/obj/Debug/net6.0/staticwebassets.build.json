@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "KfJA9jVSbS1CQKnPC96+GkDATPPB26aQmo9mBnosK0g=",
+  "Source": "UploadImage",
+  "BasePath": "_content/UploadImage",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "UploadImage\\wwwroot",
+      "Source": "UploadImage",
+      "ContentRoot": "C:\\Users\\ASUS\\source\\repos\\UploadImage\\wwwroot\\",
+      "BasePath": "_content/UploadImage",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\ASUS\\source\\repos\\UploadImage\\wwwroot\\uploads\\huan.png",
+      "SourceId": "UploadImage",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\source\\repos\\UploadImage\\wwwroot\\",
+      "BasePath": "_content/UploadImage",
+      "RelativePath": "uploads/huan.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\huan.png"
+    },
+    {
+      "Identity": "C:\\Users\\ASUS\\source\\repos\\UploadImage\\wwwroot\\uploads\\logoMH.png",
+      "SourceId": "UploadImage",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\source\\repos\\UploadImage\\wwwroot\\",
+      "BasePath": "_content/UploadImage",
+      "RelativePath": "uploads/logoMH.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\logoMH.png"
+    }
+  ]
+}
