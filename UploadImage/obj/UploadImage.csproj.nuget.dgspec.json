@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ASUS\\source\\repos\\UploadImage\\UploadImage.csproj": {}
+    "C:\\Users\\ASUS\\OneDrive\\Máy tính\\UploadImage-Deme\\UploadImage\\UploadImage.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ASUS\\source\\repos\\UploadImage\\UploadImage.csproj": {
+    "C:\\Users\\ASUS\\OneDrive\\Máy tính\\UploadImage-Deme\\UploadImage\\UploadImage.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\source\\repos\\UploadImage\\UploadImage.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\OneDrive\\Máy tính\\UploadImage-Deme\\UploadImage\\UploadImage.csproj",
         "projectName": "UploadImage",
-        "projectPath": "C:\\Users\\ASUS\\source\\repos\\UploadImage\\UploadImage.csproj",
+        "projectPath": "C:\\Users\\ASUS\\OneDrive\\Máy tính\\UploadImage-Deme\\UploadImage\\UploadImage.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\source\\repos\\UploadImage\\obj\\",
+        "outputPath": "C:\\Users\\ASUS\\OneDrive\\Máy tính\\UploadImage-Deme\\UploadImage\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,6 +44,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Grpc.Core": {
+              "target": "Package",
+              "version": "[2.45.0, )"
+            },
             "Microsoft.AspNetCore.Mvc.Abstractions": {
               "target": "Package",
               "version": "[2.2.0, )"
@@ -103,6 +107,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.3.0, )"
+            },
+            "System.Collections": {
+              "target": "Package",
+              "version": "[4.3.0, )"
             }
           },
           "imports": [

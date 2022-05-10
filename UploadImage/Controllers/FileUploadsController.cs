@@ -1,6 +1,7 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Hosting.Internal;
+using System.Linq;
+using System.Net;
 using UploadImage.Models;
 
 namespace UploadImage.Controllers
@@ -10,6 +11,9 @@ namespace UploadImage.Controllers
     public class FileUploadsController : ControllerBase
     {
         public static IWebHostEnvironment _webHostEnvironment;
+
+        public object HostEnvironment { get; private set; }
+
         public FileUploadsController(IWebHostEnvironment webHostEnvironment)
         {
             _webHostEnvironment = webHostEnvironment;
@@ -38,13 +42,18 @@ namespace UploadImage.Controllers
                 {
                     return "Faild!";
                 }
-                
-                
-            }catch (Exception ex)
-            {
-               return ex.Message;
+
+
+
             }
+            catch (Exception ex)
+            {
+                return ex.Message;
+            }
+
         }
+
+
 
         [HttpGet("{fileName}")]
         public async Task<IActionResult> Get([FromRoute] string fileName)
